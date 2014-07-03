@@ -1,0 +1,6 @@
+[
+	{ "keys": ["ctrl+j"], "command": "join_lines" },
+	{ "keys": ["ctrl+q"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["ctrl+shift+q"], "command": "toggle_comment", "args": { "block": true } },
+	{ "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" }
+]

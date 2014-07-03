@@ -1,0 +1,26 @@
+{
+	"installed_packages":
+	[
+		"Better JavaScript",
+		"BracketHighlighter",
+		"BufferScroll",
+		"Color Highlighter",
+		"CSScomb JS",
+		"DocBlockr",
+		"Emmet",
+		"Git",
+		"Goto-CSS-Declaration",
+		"Modific",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"SublimeLinter-csslint",
+		"SublimeLinter-jshint",
+		"SublimeLinter-json",
+		"Sublimerge Pro",
+		"Theme - Soda",
+		"Xdebug Client",
+		"zenburn"
+	]
+}
