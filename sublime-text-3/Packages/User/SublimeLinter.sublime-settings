@@ -22,7 +22,7 @@
             "csslint": {
                 "@disable": false,
                 "args": [
-                    "--ignore=ids,fallback-colors,box-model"
+                    "--ignore=ids,fallback-colors,box-model,box-sizing"
                 ],
                 "errors": "",
                 "excludes": [],
