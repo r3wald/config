@@ -1,0 +1,21 @@
+
+####################################
+# LIQUID PROMPT CONFIGURATION FILE #
+####################################
+
+# If you want to use different themes and features,
+# you can load the corresponding files here:
+#source ~/code/liquidprompt/nojhan.theme
+#LP_PS1_FILE="~/code/liquidprompt/nojhan.ps1"
+
+LP_ENABLE_LOAD=0
+LP_ENABLE_BATT=0
+LP_ENABLE_TEMP=0
+
+LP_COLOR_PATH="$YELLOW"
+LP_COLOR_USER_LOGGED="$GREEN"
+LP_COLOR_USER_ROOT="$RED"
+LP_COLOR_WRITE=""
+LP_COLOR_NOWRITE="$RED"
+
+# vim: set et sts=4 sw=4 tw=120 ft=sh:
