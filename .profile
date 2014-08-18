@@ -21,4 +21,6 @@ if [ -f /usr/local/share/liquidprompt ]; then
 	. /usr/local/share/liquidprompt
 fi
 
+export PATH="/usr/local/bin:$PATH:/Users/c.schnieder/Applications/.shell"
+
 export HOMEBREW_GITHUB_API_TOKEN=9129e5950a070f0b9f29e124bac1d4c70a25f70c
