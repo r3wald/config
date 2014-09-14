@@ -114,7 +114,7 @@ fi
 PATH=${PATH}:/home/cs/tools
 PATH=${PATH}:/home/share/applications/android-sdk/platform-tools:/home/share/applications/android-sdk/tools
 PATH=${PATH}:/home/share/applications/android-ndk
-PATH=${PATH}:/home/share/applications/nodejs/bin
+PATH=${PATH}:~/.local/share/npm
 
 export PATH
 
