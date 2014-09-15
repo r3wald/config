@@ -23,4 +23,6 @@ fi
 
 export PATH="/usr/local/bin:$PATH:/Users/c.schnieder/Applications/.shell"
 
+export PYTHONPATH=/usr/local/lib/python2.7/site-packages
+
 export HOMEBREW_GITHUB_API_TOKEN=9129e5950a070f0b9f29e124bac1d4c70a25f70c
