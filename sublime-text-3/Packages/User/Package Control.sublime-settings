@@ -1,6 +1,8 @@
 {
 	"installed_packages":
 	[
+		"AdvancedNewFile",
+		"Autoprefixer",
 		"Better JavaScript",
 		"BracketHighlighter",
 		"BufferScroll",

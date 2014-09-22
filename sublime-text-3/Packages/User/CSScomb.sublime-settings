@@ -52,7 +52,7 @@
 		"space-before-combinator": " ",
 
 		// Set space before `{`.
-		"space-before-opening-brace": "\n",
+		"space-before-opening-brace": " ",
 
 		// Set space before selector delimiter.
 		"space-before-selector-delimiter": "",
@@ -77,9 +77,9 @@
 				"top",
 				"right",
 				"bottom",
-				"left"
-			],
-			[
+				"left",
+			// ],
+			// [
 				"pointer-events",
 				"-webkit-user-select",
 				"-moz-user-select",
@@ -128,9 +128,9 @@
 				"nav-up",
 				"nav-right",
 				"nav-down",
-				"nav-left"
-			],
-			[
+				"nav-left",
+			// ],
+			// [
 				"margin",
 				"margin-top",
 				"margin-right",
@@ -219,15 +219,15 @@
 
 				"height",
 				"min-height",
-				"max-height"
-			],
-			[
+				"max-height",
+			// ],
+			// [
 				"content",
 				"quotes",
 				"counter-reset",
-				"counter-increment"
-			],
-			[
+				"counter-increment",
+			// ],
+			// [
 				"background",
 				"background-color",
 				"background-image",
@@ -247,9 +247,9 @@
 				"-o-background-size",
 				"background-size",
 
-				"color"
-			],
-			[
+				"color",
+			// ],
+			// [
 				"font",
 				"font-family",
 				"font-size",
@@ -302,7 +302,7 @@
 				"tab-size",
 				"-webkit-hyphens",
 				"-moz-hyphens",
-				"hyphens"
+				"hyphens",
 			],
 			[
 				"-webkit-transition",
@@ -382,6 +382,11 @@
 				"-ms-animation-direction",
 				"-o-animation-direction",
 				"animation-direction",
+				"-webkit-animation-fill-mode",
+				"-moz-animation-fill-mode",
+				"-ms-animation-fill-mode",
+				"-o-animation-fill-mode",
+				"animation-fill-mode",
 			]
 		]
 	}
