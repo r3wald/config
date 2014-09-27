@@ -111,10 +111,19 @@ if ! shopt -oq posix; then
   fi
 fi
 
-PATH=${PATH}:/home/cs/tools
-PATH=${PATH}:/home/share/applications/android-sdk/platform-tools:/home/share/applications/android-sdk/tools
-PATH=${PATH}:/home/share/applications/android-ndk
-PATH=${PATH}:~/.local/share/npm/bin
+if [ -f ~/tools ]; then
+	PATH=${PATH}:~/tools
+fi
+
+if [ -f /home/share/applications/android-sdk ]; then
+	PATH=${PATH}:/home/share/applications/android-sdk/platform-tools:/home/share/applications/android-sdk/tools
+	PATH=${PATH}:/home/share/applications/android-ndk
+	export ANDROID_NDK_ROOT=/home/share/applications/android-ndk
+fi
+
+if [ -f ~/.local/share/npm/bin ]; then
+	PATH=${PATH}:~/.local/share/npm/bin
+fi
 
 export PATH
 
@@ -122,5 +131,4 @@ if [ -f /home/share/applications/liquidprompt/liquidprompt ]; then
 	. /home/share/applications/liquidprompt/liquidprompt
 fi
 
-export ANDROID_NDK_ROOT=/home/share/applications/android-ndk
 
