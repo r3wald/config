@@ -20,63 +20,91 @@ endif
 " required!
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
 
-" let Vundle manage Vundle
-" required!
-Bundle 'gmarik/vundle'
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
 
-" original repos on github
-Bundle 'tpope/vim-surround'
+" The following are examples of different formats supported.
+" Keep Plugin commands between vundle#begin/end.
+" plugin on GitHub repo
+"Plugin 'tpope/vim-fugitive'
+" plugin from http://vim-scripts.org/vim/scripts.html
+"Plugin 'L9'
+" Git plugin not hosted on GitHub
+"Plugin 'git://git.wincent.com/command-t.git'
+" git repos on your local machine (i.e. when working on your own plugin)
+"Plugin 'file:///home/gmarik/path/to/plugin'
+" The sparkup vim script is in a subdirectory of this repo called vim.
+" Pass the path to set the runtimepath properly.
+"Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+" Avoid a name conflict with L9
+"Plugin 'user/L9', {'name': 'newL9'}
+
+" have a look at http://vimawesome.com/
+
+Plugin 'bling/vim-airline'	" replacement for powerline
+Plugin 'EasyMotion'	" Lokaltog/vim-easymotion
+Plugin 'paradigm/vim-multicursor'
+
+Plugin 'Zenburn'	" jnurmine/Zenburn
+"Plugin 'chriskempson/tomorrow-theme'
+"Plugin 'chriskempson/base16'
+Plugin 'ap/vim-css-color'
+Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'bronson/vim-trailing-whitespace'
+
+Plugin 'kien/ctrlp.vim'
+Plugin 'tpope/vim-surround'
+"Plugin 'Tagbar'	" requires Exuberant ctags
+
+" old plugins to check:
 "Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-repeat'
+"Bundle 'tpope/vim-repeat'
 "Bundle 'tpope/vim-ragtag'
 "Bundle 'gregsexton/MatchTag'
-Bundle 'Valloric/MatchTagAlways'
+"Bundle 'Valloric/MatchTagAlways'
 "Bundle 'Lokaltog/TagHighlight'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'Lokaltog/vim-powerline'
-"Bundle 'jelera/vim-powerline'
-Bundle 'scrooloose/nerdtree'
-Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-Bundle 'ervandew/supertab'
-Bundle 'int3/vim-taglist-plus'
+"Bundle 'scrooloose/nerdtree'
+"Bundle 'ervandew/supertab'
+"Bundle 'int3/vim-taglist-plus'
 "Bundle 'xolox/vim-easytags'
-
-" php:
 "Bundle 'jimktrains/phpm'
 "Bundle 'hpyhacking/ManPageView'
 "Bundle 'mikehaertl/pdv-standalone'
-
-" css:
+"Bundle 'phpcodesniffer.vim'
 "Bundle 'lilydjwg/colorizer'
 "Bundle 'chrisbra/color_highlight'
-
-" colorschemes:
-Bundle 'jnurmine/Zenburn'
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'tomasr/molokai'
-Bundle 'jelera/vim-gummybears-colorscheme'
-Bundle 'ruda/satori'
-
-" vim-scripts repos
 "Bundle 'L9'
 "Bundle 'FuzzyFinder'
 "Bundle 'ZenCoding.vim'
-
-" B
-" php:
-"Bundle 'phpcodesniffer.vim'
-
-" colorschemes:
-Bundle 'freya'
-
-" non github repos
 "Bundle 'git://git.wincent.com/command-t.git'
 
-" required!
-filetype plugin indent on
+" old colorschemes to check:
+"Bundle 'altercation/vim-colors-solarized'
+"Bundle 'tomasr/molokai'
+"Bundle 'jelera/vim-gummybears-colorscheme'
+"Bundle 'ruda/satori'
+"Bundle 'freya'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+"
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+"
+" see :h vundle for more details or wiki for FAQ
+" Put your non-Plugin stuff after this line
 
 " }}}
 
@@ -140,6 +168,11 @@ set wrapscan
 set wildmenu
 " make it easier to complete buffers, open files, etc.
 set wildignorecase
+" Ignore compiled files
+set wildignore=*.o,*~,*.pyc
+
+" Always show current position
+set ruler
 
 " set the forward slash to be the slash of note. Backslashes suck
 set shellslash
@@ -150,7 +183,7 @@ set mouse=a
 set mousehide
 
 " lines to keep when scrolling
-set scrolloff=3
+set scrolloff=5
 
 set nostartofline
 
@@ -166,6 +199,23 @@ let mapleader = ","
 " spell checking on
 "set spell
 
+" For regular expressions turn magic on
+set magic
+
+" How many tenths of a second to blink when matching brackets
+set mat=2
+
+" Set utf8 as standard encoding and en_US as the standard language
+set encoding=utf8
+
+" Use Unix as the standard file type
+set ffs=unix,dos,mac
+
+" Turn backup off, since most stuff is in SVN, git et.c anyway...
+set nobackup
+set nowb
+set noswapfile
+
 " }}}
 
 
@@ -174,6 +224,7 @@ let mapleader = ","
 scriptencoding utf-8
 
 set backspace=indent,eol,start
+set whichwrap+=<,>,h,l
 
 " tab size
 set tabstop=4
@@ -182,9 +233,10 @@ set shiftwidth=4
 set softtabstop=4
 " replace tabs with ${tabstop} spaces
 "set expandtab
-"set smarttab
+set smarttab
 
 set autoindent
+set si "smart indent
 
 " when completing by tag, show the whole tag, not just the function name
 set showfulltag
@@ -206,6 +258,10 @@ colorscheme zenburn
 set number
 "set relativenumber
 
+set linebreak		" Break lines at word (requires Wrap lines)
+set showbreak=+++ 	" Wrap-broken line prefix
+set textwidth=120	" Line wrap (number of cols)
+
 " show matching brackets
 set showmatch
 " bracket blinking
@@ -220,8 +276,9 @@ set nocursorcolumn
 " set the textwidth to be 80 chars
 "set textwidth=80
 
-" set width indicator to 80 chars
-set colorcolumn=80
+" set width indicator to 80 and 120 chars
+set colorcolumn=80,120
+highlight ColorColumn term=reverse ctermbg=233 guibg=#383838
 
 " set up the gui cursor to look nice
 set guicursor=n-v-c:block-Cursor-blinkon0,ve:ver35-Cursor,o:hor50-Cursor,i-ci:ver25-Cursor,r-cr:hor20-Cursor,sm:block-Cursor-blinkwait175-blinkoff150-blinkon175

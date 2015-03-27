@@ -5,8 +5,8 @@
 	"installed_packages":
 	[
 		"AdvancedNewFile",
+		"ApacheConf.tmLanguage",
 		"Autoprefixer",
-		"Better JavaScript",
 		"BracketHighlighter",
 		"BufferScroll",
 		"Color Highlighter",
@@ -15,6 +15,9 @@
 		"Emmet",
 		"Git",
 		"Goto-CSS-Declaration",
+		"JavaScript Ultimate",
+		"Markdown Preview",
+		"MarkdownEditing",
 		"Modific",
 		"Package Control",
 		"Rust",
@@ -26,8 +29,10 @@
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
 		"Sublimerge Pro",
+		"Surround",
 		"Theme - Soda",
 		"TOML",
+		"TodoReview",
 		"Xdebug Client",
 		"zenburn"
 	]
