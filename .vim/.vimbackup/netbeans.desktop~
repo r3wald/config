@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Netbeans
+GenericName=Integrated Development Environment
+Comment=Develop Everything
+Type=Application
+Terminal=false
+Exec=/home/share/applications/netbeans/bin/netbeans %U
+Icon=/home/share/applications/netbeans/nb/netbeans.icns
+StartupNotify=true
+Categories=Development;IDE;

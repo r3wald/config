@@ -1,0 +1,22 @@
+dalek test for login form added
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Fri Sep 26 22:26:01 2014 +0200
+#
+# On branch master
+# Your branch is ahead of 'origin/master' by 1 commit.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#	modified:   package.json
+#	new file:   test/login.js
+#	modified:   www/css/main.css
+#	deleted:    www/img/favicon.ico
+#	new file:   www/img/favicon.png
+#	modified:   www/index.html
+#
+# Untracked files:
+#	www-orig/
+#

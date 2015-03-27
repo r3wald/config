@@ -1,0 +1,142 @@
+/etc/gdm3/Xsession: Beginning session setup...
+localuser:cs being added to access control list
+openConnection: connect: Datei oder Verzeichnis nicht gefunden
+cannot connect to brltty at :0
+GNOME_KEYRING_CONTROL=/home/cs/.cache/keyring-mmm7MF
+GPG_AGENT_INFO=/home/cs/.cache/keyring-mmm7MF/gpg:0:1
+GNOME_KEYRING_CONTROL=/home/cs/.cache/keyring-mmm7MF
+GPG_AGENT_INFO=/home/cs/.cache/keyring-mmm7MF/gpg:0:1
+GNOME_KEYRING_CONTROL=/home/cs/.cache/keyring-mmm7MF
+GPG_AGENT_INFO=/home/cs/.cache/keyring-mmm7MF/gpg:0:1
+GNOME_KEYRING_CONTROL=/home/cs/.cache/keyring-mmm7MF
+GPG_AGENT_INFO=/home/cs/.cache/keyring-mmm7MF/gpg:0:1
+SSH_AUTH_SOCK=/home/cs/.cache/keyring-mmm7MF/ssh
+
+** (gnome-settings-daemon:3131): WARNING **: /usr/lib/gnome-settings-daemon-3.0/libupdates.so: undefined symbol: pk_control_set_root_async
+
+** (gnome-settings-daemon:3131): WARNING **: Cannot load plugin 'Aktualisierungen' since file '/usr/lib/gnome-settings-daemon-3.0/libupdates.so' cannot be read.
+
+** (gnome-settings-daemon:3131): WARNING **: Error activating plugin 'Aktualisierungen'
+Tracker-Message: Importing config file to GSettings
+Tracker-Message: Importing config file to GSettings
+Tracker-Message: Importing config file to GSettings
+    JS ERROR: !!!   WARNING: 'anonymous function does not always return a value'
+    JS ERROR: !!!   WARNING: file '/home/cs/.local/share/gnome-shell/extensions/weather-extension@xeked.com/extension.js' line 597 exception 0 number 157
+    JS ERROR: !!!   WARNING: 'anonymous function does not always return a value'
+    JS ERROR: !!!   WARNING: file '/home/cs/.local/share/gnome-shell/extensions/weather-extension@xeked.com/extension.js' line 1012 exception 0 number 157
+
+(gnome-shell:3156): Clutter-CRITICAL **: clutter_actor_insert_child_at_index: assertion `child->priv->parent == NULL' failed
+Fensterverwalter-Warnung:In der Konfigurationsdatenbank gefundenes »<Super>return« ist kein zulässiger Wert für die Tastenkombination »open-terminal«
+      JS LOG: GNOME Shell started at Mon Nov 18 2013 22:48:32 GMT+0100 (CET)
+Fensterverwalter-Warnung:CurrentTime used to choose focus window; focus window may not be correct.
+Fensterverwalter-Warnung:Got a request to focus the no_focus_window with a timestamp of 0.  This shouldn't happen!
+    JS ERROR: !!!   Exception was: TypeError: args[i++] is undefined
+    JS ERROR: !!!     message = '"args[i++] is undefined"'
+    JS ERROR: !!!     fileName = '"/usr/share/gnome-shell/js/misc/format.js"'
+    JS ERROR: !!!     lineNumber = '48'
+    JS ERROR: !!!     stack = '"("%s","","","","s",31,"Failed to add search provider \"%s\": %s")@/usr/share/gnome-shell/js/misc/format.js:48
+format((void 0),"GLib.KeyFileError: Die Schl\xFCsselwertedatei enth\xE4lt nicht den Schl\xFCssel \xBBIcon\xAB")@/usr/share/gnome-shell/js/misc/format.js:22
+([object Array])@/usr/share/gnome-shell/js/ui/remoteSearch.js:75
+onNextFileComplete([object GObject_Object],[object GObject_Object])@/usr/share/gnome-shell/js/misc/fileUtils.js:19
+"'
+Fensterverwalter-Warnung:Log level 8: _shell_embedded_window_unrealize: assertion `SHELL_IS_EMBEDDED_WINDOW (window)' failed
+
+(process:3617): GLib-CRITICAL **: g_slice_set_config: assertion `sys_page_size == 0' failed
+
+(gnome-settings-daemon:3131): color-plugin-WARNING **: failed to connect to device: Failed to connect to missing device /org/freedesktop/ColorManager/devices/cups_HP_LaserJet_4000_Series
+Fensterverwalter-Warnung:Log level 16: STACK_OP_RAISE_ABOVE: sibling window 0x200004e not in stack
+Initializing nautilus-gdu extension
+Fensterverwalter-Warnung:Log level 16: STACK_OP_RAISE_ABOVE: sibling window 0x260004e not in stack
+
+(evolution-alarm-notify:3179): evolution-alarm-notify-WARNING **: alarm.c:255: Requested removal of nonexistent alarm!
+Fensterverwalter-Warnung:CurrentTime used to choose focus window; focus window may not be correct.
+Fensterverwalter-Warnung:Got a request to focus the no_focus_window with a timestamp of 0.  This shouldn't happen!
+
+(nautilus:4517): GLib-GObject-WARNING **: /tmp/buildd/glib2.0-2.36.4/./gobject/gsignal.c:2593: instance `0x7f38bc005280' has no handler with id `243'
+Fensterverwalter-Warnung:CurrentTime used to choose focus window; focus window may not be correct.
+Fensterverwalter-Warnung:Got a request to focus the no_focus_window with a timestamp of 0.  This shouldn't happen!
+Unhandled exception in thread started by <bound method Guake.delete_shell of Guake(path="/usr/share/guake/guake.glade")>
+Traceback (most recent call last):
+  File "/usr/bin/guake", line 1262, in delete_shell
+    os.kill(pid, signal.SIGTERM)
+OSError: [Errno 3] Kein passender Prozess gefunden
+Unhandled exception in thread started by <bound method Guake.delete_shell of Guake(path="/usr/share/guake/guake.glade")>
+Traceback (most recent call last):
+  File "/usr/bin/guake", line 1262, in delete_shell
+    os.kill(pid, signal.SIGTERM)
+OSError: [Errno 3] Kein passender Prozess gefunden
+Fensterverwalter-Warnung:CurrentTime used to choose focus window; focus window may not be correct.
+Fensterverwalter-Warnung:Got a request to focus the no_focus_window with a timestamp of 0.  This shouldn't happen!
+
+(gnome-shell:3156): GLib-GIO-WARNING **: Dropping signal ActiveSessionChanged of type (s) since the type from the expected interface is (o)
+
+(gnome-settings-daemon:3131): color-plugin-WARNING **: Done switch to new account, reload devices
+
+(gnome-shell:3156): GLib-GIO-WARNING **: Dropping signal ActiveSessionChanged of type (s) since the type from the expected interface is (o)
+
+(gnome-shell:3156): GLib-GIO-WARNING **: Dropping signal ActiveSessionChanged of type (s) since the type from the expected interface is (o)
+
+(gnome-settings-daemon:3131): color-plugin-WARNING **: Done switch to new account, reload devices
+
+(gnome-shell:3156): GLib-GIO-WARNING **: Dropping signal ActiveSessionChanged of type (s) since the type from the expected interface is (o)
+
+(gnome-shell:3156): GLib-GIO-WARNING **: Dropping signal ActiveSessionChanged of type (s) since the type from the expected interface is (o)
+
+(gnome-settings-daemon:3131): color-plugin-WARNING **: Done switch to new account, reload devices
+
+(gnome-shell:3156): GLib-GIO-WARNING **: Dropping signal ActiveSessionChanged of type (s) since the type from the expected interface is (o)
+
+(gnome-shell:3156): GLib-GIO-WARNING **: Dropping signal ActiveSessionChanged of type (s) since the type from the expected interface is (o)
+Fensterverwalter-Warnung:Log level 16: Failed to load apps: Failed to look up menu_file for "gnomecc.menu"
+
+
+(gnome-settings-daemon:3131): color-plugin-WARNING **: Done switch to new account, reload devices
+
+(gnome-shell:3156): GLib-GIO-WARNING **: Dropping signal ActiveSessionChanged of type (s) since the type from the expected interface is (o)
+
+(gnome-shell:3156): GLib-GIO-WARNING **: Dropping signal ActiveSessionChanged of type (s) since the type from the expected interface is (o)
+
+(gnome-settings-daemon:3131): color-plugin-WARNING **: Done switch to new account, reload devices
+
+(gnome-shell:3156): GLib-GIO-WARNING **: Dropping signal ActiveSessionChanged of type (s) since the type from the expected interface is (o)
+
+(gnome-shell:3156): GLib-GIO-WARNING **: Dropping signal ActiveSessionChanged of type (s) since the type from the expected interface is (o)
+Fensterverwalter-Warnung:Log level 16: STACK_OP_RAISE_ABOVE: sibling window 0x2000291 not in stack
+Fensterverwalter-Warnung:CurrentTime used to choose focus window; focus window may not be correct.
+Fensterverwalter-Warnung:Got a request to focus the no_focus_window with a timestamp of 0.  This shouldn't happen!
+[1384811310,000,xklavier.c:xkl_engine_start_listen/] 	The backend does not require manual layout management - but it is provided by the application
+
+(gnome-shell:3156): AccountsService-WARNING **: unable to determine if seat can activate sessions: Datei oder Verzeichnis nicht gefunden
+
+(gnome-shell:3156): GLib-GIO-WARNING **: Dropping signal ActiveSessionChanged of type (s) since the type from the expected interface is (o)
+
+(gdu-notification-daemon:3172): Gdk-WARNING **: gdu-notification-daemon: Fatal IO error 11 (Die Ressource ist zur Zeit nicht verfügbar) on X server :0.
+
+
+(evolution-alarm-notify:3179): Gdk-WARNING **: evolution-alarm-notify: Fatal IO error 11 (Die Ressource ist zur Zeit nicht verfügbar) on X server :0.
+
+
+(gnome-screensaver:3175): Gdk-WARNING **: gnome-screensaver: Fatal IO error 11 (Die Ressource ist zur Zeit nicht verfügbar) on X server :0.
+
+guake: Fatal IO error 11 (Die Ressource ist zur Zeit nicht verfügbar) on X server :0.
+Fensterverwalter-Warnung:Log level 16: gnome-shell: Fatal IO error 11 (Die Ressource ist zur Zeit nicht verfügbar) on X server :0.
+
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+
+Received signal:15->'Beendet'
+
+(tracker-miner-fs:3169): GLib-GIO-CRITICAL **: Error while sending AddMatch() message: Verbindung ist geschlossen
+
+(tracker-miner-fs:3169): GLib-GIO-CRITICAL **: Error while sending AddMatch() message: Verbindung ist geschlossen
+
+(tracker-miner-fs:3169): GLib-GIO-CRITICAL **: Error while sending AddMatch() message: Verbindung ist geschlossen
+g_dbus_connection_real_closed: Remote peer vanished with error: Underlying GIOStream returned 0 bytes on an async read (g-io-error-quark, 0). Exiting.
+
+Received signal:15->'Beendet'
+OK
+
+
+OK
+
+gnome-shell-calendar-server[3274]: Lost (or failed to acquire) the name org.gnome.Shell.CalendarServer - exiting
+g_dbus_connection_real_closed: Remote peer vanished with error: Error receiving message: Connection reset by peer (g-io-error-quark, 0). Exiting.

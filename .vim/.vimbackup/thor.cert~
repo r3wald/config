@@ -1,0 +1,82 @@
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:/C=DE/O=Christoph/CN=thor/emailAddress=christoph@intanet.de
+   i:/C=DE/O=Christoph/CN=thor/emailAddress=christoph@intanet.de
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+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
+wJ2eKntCgliAyyNeB64LLyyfh5hHb0OGRko=
+-----END CERTIFICATE-----
+subject=/C=DE/O=Christoph/CN=thor/emailAddress=christoph@intanet.de
+issuer=/C=DE/O=Christoph/CN=thor/emailAddress=christoph@intanet.de
+---
+No client certificate CA names sent
+---
+SSL handshake has read 2648 bytes and written 715 bytes
+---
+New, TLSv1/SSLv3, Cipher is DHE-RSA-AES256-SHA
+Server public key is 4096 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+SSL-Session:
+    Protocol  : TLSv1
+    Cipher    : DHE-RSA-AES256-SHA
+    Session-ID: 74D2E8BDD572D64D6B323D51AB4DF0F49FC2C3D838AA8909709381DA994B0D80
+    Session-ID-ctx: 
+    Master-Key: FFF74146AC83DB0AC570158BB85F74B763F3B258B819BA1F166FD4AC3B7A4A11D799BCEB6BAA7755423923AE0CF5B414
+    Key-Arg   : None
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket:
+    0000 - f3 c9 9f 7f 55 08 34 48-5e e7 ce 82 89 85 5b 4c   ....U.4H^.....[L
+    0010 - 17 da 23 1f 7e 8a 71 ac-18 76 6d c0 58 fd 90 86   ..#.~.q..vm.X...
+    0020 - ce e2 45 6f 87 8f 31 7a-ca b8 22 47 63 bc b3 eb   ..Eo..1z.."Gc...
+    0030 - 16 60 d8 52 1b 42 f5 46-cf dc bd 23 4b 17 5f a7   .`.R.B.F...#K._.
+    0040 - 1f 89 05 58 4c d1 2c d9-4b 06 fa 3d 9f 49 ae 4c   ...XL.,.K..=.I.L
+    0050 - 55 52 35 1d b7 11 8e ac-b0 4c fb 4c d0 53 b1 18   UR5......L.L.S..
+    0060 - 9c 27 2c 79 d1 c9 63 f0-ca 55 52 2f 81 8f d4 f9   .',y..c..UR/....
+    0070 - 30 64 d0 9d a1 d2 56 44-04 f1 53 f2 76 ab b2 6a   0d....VD..S.v..j
+    0080 - c5 b1 fb f0 f2 72 b0 31-05 17 33 9c 1f 85 6b 48   .....r.1..3...kH
+    0090 - 47 70 75 5c f1 da 50 40-63 53 c8 f7 5b 89 13 a4   Gpu\..P@cS..[...
+    00a0 - dd 05 af ac 11 8a d2 36-d9 f9 9b f7 b3 99 fa be   .......6........
+    00b0 - 29 32 97 f4 8a 07 28 db-57 7b 0b a9 1d 3c f2 59   )2....(.W{...<.Y
+
+    Start Time: 1399574083
+    Timeout   : 300 (sec)
+    Verify return code: 18 (self signed certificate)
+---
+closed

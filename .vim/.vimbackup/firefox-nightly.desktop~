@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Firefox Nightly
+GenericName=Web Browser Nightly
+Comment=Browse the World Wide Web
+Type=Application
+Terminal=false
+Exec=/home/share/applications/firefox-nightly/firefox-bin -P nightly -no-remote %U
+Icon=/home/share/applications/firefox-nightly/browser/icons/mozicon128.png
+StartupNotify=false
+Categories=Network;WebBrowser;
+Keywords=nightly

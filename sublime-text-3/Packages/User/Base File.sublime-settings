@@ -1,5 +1,5 @@
 {
 	"jsdocs_extend_double_slash": false,
-	"jsdocs_spacer_between_sections": true,
+	"jsdocs_spacer_between_sections": "after_description",
 	"jsdocs_per_section_indent": true
 }

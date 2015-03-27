@@ -1,0 +1,10 @@
+#!/bin/sh
+
+DIR=/home/cs/sqlup
+
+wget http://dbdump:d0mpp0mp@drf.dev1000.com/dbdump/ -O $DIR/drf.sql.bz2
+bunzip2 $DIR/*.bz2
+#mysql -uroot -pgeheim drf < $DIR/drf.sql
+mysql -uroot -p drf < $DIR/drf.sql
+rm $DIR/*.sql
+

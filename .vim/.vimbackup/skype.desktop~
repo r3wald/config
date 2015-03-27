@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Skype
+Comment=P2P software for high-quality voice communication
+Exec=/home/share/applications/skype/skype
+Icon=/home/share/applications/skype/icons/SkypeBlue_48x48.png
+Terminal=0
+Type=Application
+Encoding=UTF-8
+Categories=Network;Application;
+

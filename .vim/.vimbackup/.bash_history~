@@ -1,0 +1,1714 @@
+//h pinchy.de
+cd projects/
+mkdir imagemin && cd $_
+l
+npm install
+l
+gulp
+su
+ssh pinchy.de
+cat /etc/rc.local
+su
+ssh pinchy.de
+su
+cd projects/aida-hyperion/
+svn st
+svn diff share/css/stage.css
+svn diff share/js/lib/stage.js
+svn diff stage/js/cruiser.js
+svn st
+svn diff stage/js/infofilm.js
+svn st
+svn add stage/img/*/loading.jpg
+rm -rf share/img/
+svn st
+l
+ant
+l
+ant
+svn st
+svn up
+svn st
+svn add stage/img/loading.gif
+ant clean
+svn st
+svn add stage/img/sustainability/loadingsvn st
+svn st
+svn add stage/img/*/loading-mobile.jpg
+svn st
+ant
+l
+ant clean
+l
+ant clean
+svn st
+ant
+ant clean
+svn st
+svn revert stage/img/route/route-map.svg
+svn st
+svn revert stage/img/route/fallback-1.jpg
+svn revert stage/img/route/fallback-4.jpg
+svn st
+svn diff share/js/lib/stage.js
+svn diff stage/js/cruiser.js
+svn diff stage/js/holiday.js
+svn st
+svn diff stage/js/infofilm.js
+svn diff stage/js/sustainability.js
+svn st
+svn ci -m "preloader for stages added" share/ stage/*.html stage/img/* stage/js/*.js
+svn ci -m "preloader for stages added" share/ stage/*.html stage/img/*/loading*.jpg stage/js/*.js
+svn st
+svn ci -m "preloader for stages added - css files" stage/css/* stage/img/loading.gif
+svn ci -m "preloader for stages added - css files" stage/css/cruiser.css stage/css/holiday.css stage/css/infofilm.css stage/css/sustainability.css stage/img/loading.gif
+svn st
+ant clean
+ant
+svn up
+svn st
+svn ci -m "sustainability loading background position changed"
+svn ci -m "sustainability loading background position changed" stage/css/sustainability.css
+svn st
+ant
+cd projects/seasons/hoodie/
+l
+hoodie start
+l
+l data/
+cd ..
+l
+hoodie new admin
+npm update -g
+l
+rm -rf admin/
+hoodie new admin
+l
+l admin/
+su
+npm outdated -g --depth 0
+npm update -g
+npm outdated -g --depth 0
+cd projects/seasons/
+l
+l admin/
+l admin/www/
+rm -rf admin/
+hoodie new admin
+l
+rm -rf admin/
+l
+hoodie new admin
+l
+rm -rf admin/
+hoodie cache clean
+npm cache clean
+hoodie cache clean
+hoodie new admin
+pstree
+su
+l
+cd admin/
+hoodie start
+ssh pinchy.de
+cd projects/seasons/admin/
+hoodie start
+cd projects/seasons/
+l
+cd admin/
+hoodie start
+su
+l /tmp/
+pstree
+cd /tmp/
+mkdir tmp
+cd tmp/
+ssh pinchy.de
+su
+ssh lodur
+ssh pinchy.de
+su
+cd projects/aida-hyperion/
+l
+sudo service apache start
+sudo service apache2 start
+sudo service apache2 stop
+cd .config/
+l
+git pull
+cd projects/seasons/admin/
+l
+hoodie start
+su
+ssh pinchy.de
+ssh lodur
+su
+cd /tmp/
+l
+mkdir tmp
+cd tmp/
+su
+ssh pinchy.de
+su
+su
+ssh pinchy.de
+su
+ssh pinchy.de
+sudo service apache2 start
+cd projects/aida-hyperion/
+svn st
+svn ci -m "cruiser loading background position fixed; domain removed from links" stage/css/cruiser.css stage/css/holiday.css stage/js/holiday.js
+ant
+svn up
+svn st
+ssh pinchy.de
+su
+cd projects/aida-hyperion/
+l
+cat build.xml
+cat stage/build.xml
+cd stage
+ant concat
+svn st
+svn st ..
+ant clean
+l
+cd ..
+ant clean
+l
+ant
+svn st
+svn ci -m "infofilm height workaround; holiday magnifier loading fixed" stage/js/infofilm.js  stage/js/holiday.js
+svn st
+su
+ssh pinchy.de
+cd /tmp/
+l
+mkdir tmp
+cd tmp/
+cd /tmp/t
+ssh pinchy.de
+su
+ssh lodur
+su
+ssh pinchy
+ssh pinchy.de
+su
+cd .config/
+git pull
+git status
+cat .bashrc
+git add .bashrc
+git status
+git commit -m "notebook .bashrc added"
+git push
+su
+ssh pinchy.de
+su
+ssh pinchy.de
+su
+ssh pinchy.de
+ssh lodur
+l
+l
+rm ractive.min.js
+cd projects/seasons/admin/
+l
+hoodie start
+git status
+cd ..
+l
+l app/
+l web/
+l admin/
+hoodie start
+hoodie start -n
+hoodie start
+hoodie --help
+hoodie reset
+hoodie start
+npm update -g hoodie-cli
+hoodie start
+hoodie start -n
+hoodie start
+pstree
+systemctl stop apache2
+hoodie start
+ssh pinch.de
+ssh pinchy.de
+su
+cd projects/seasons/admin/
+hoodie start
+cd ../web/
+git status
+git add .
+git status
+git commit -m "wip to be replaced by hoodie version"
+git push
+git pull
+git push
+l
+cd ..
+l
+cd web
+l
+hoodie start -n
+cd ..
+l
+hoodie create hoodie
+hoodie help
+hoodie new hoodie
+ssh pinchy.de
+cd projects/seasons/web
+l
+hoodie start
+su
+ssh pinchy.de
+ssh thor
+su
+l /tmp/
+su
+ssh pinchy.de
+su
+ssh lodur
+su
+ssh pinchy.de
+su
+ssh pinchy.de
+ssh lodur
+cd projects/
+git clone https://github.com/gpodder/gpodder.git
+su
+cd projects/
+l
+cd snap
+l
+git pull
+l ~/.ssh/id_rsa_cs_forseti
+cat ~/.ssh/id_rsa_cs_forseti
+cat ~/.ssh/id_rsa_cs_forseti.pub
+git pull
+cd ..
+l
+git clone ssh://fsg@cloudcontrolled.com/repository.git fsg
+cd projects/
+l
+cd snap
+git branch
+git checkout master
+git pull
+git checkout devchristoph
+git pull
+git checkout gulp
+git pull --all
+l
+cd ..
+cd fsg/
+l
+git pull
+git checkout christoph
+git pull
+vagrant up
+l
+php -r "readfile('https://getcomposer.org/installer');" | php
+vagrant ssh
+git status
+git add .
+git status
+git commit -m "marker image added"
+git push
+vagrant halt
+cd ~/.config/
+git
+git status
+git info
+git remote origin show
+git remote origin
+git remote show origin
+ssh pinchy.de
+l
+l | grep liquid
+l
+l .config/
+cd .config/
+git add liquidpromptrc
+git status
+git diff sublime-text-3/Packages/User/Preferences.sublime-settings
+git add sublime-text-3/Packages/User/Preferences.sublime-settings
+git commit -m "liquidpromt config added"
+git push
+git pull
+rm sublime-text-3/Packages/User/Package\ Control.sublime-settings
+git pull
+ssh pinchy.de
+su
+scp cs@odin:/home/cs/Videos/TinkerBell\ -\ Ein\ Sommer\ voller\ Abenteuer.iso cs@thor:/media/a64fb389-3a5d-4fb9-b33d-bc0ca0dc75b6/media/
+vi .ssh/known_hosts
+scp cs@odin:/home/cs/Videos/TinkerBell\ -\ Ein\ Sommer\ voller\ Abenteuer.iso cs@thor:/media/a64fb389-3a5d-4fb9-b33d-bc0ca0dc75b6/media/
+vi .ssh/known_hosts
+scp cs@odin:/home/cs/Videos/TinkerBell\ -\ Ein\ Sommer\ voller\ Abenteuer.iso cs@thor:/media/a64fb389-3a5d-4fb9-b33d-bc0ca0dc75b6/media/
+vi .ssh/known_hosts
+scp cs@odin:/home/cs/Videos/TinkerBell\ -\ Ein\ Sommer\ voller\ Abenteuer.iso cs@thor:/media/a64fb389-3a5d-4fb9-b33d-bc0ca0dc75b6/media/
+ssh odin
+ssh schnossi@odin
+sshfs --help
+sshfs cs@odin:/ mnt/sshfs/
+l
+l .vim
+l .vim/
+sshfs schnossi@odin:/home/schnossi mnt/tmp/
+rsync --help
+ssh odin
+ssh lodur
+ssh odin
+ssh thor
+ssh lodur
+su
+ssh pinchy.de
+su
+ssh pinchy.de
+su
+ssh pinchy.de
+ssh lodur
+su
+ssh lodur
+cd /tmp/
+l
+mkdir tmp && cs $_
+cd tmp/
+su
+ssh pinchy.de
+su
+ssh lodur
+cd /tmp/
+l
+mkdir tmp && cd $_
+l /media/
+l /media/cs/
+mount
+l /media/
+l /media/cs/
+l /media/usb
+l /media/usb0/
+l /media/usb1/
+l ~/.gvfs/
+l ~/.gvfs
+l ~/
+l /run/user/
+l /run/user/1000/
+l /run/user/1000/gvfs/
+l /run/user/1000/gvfs/smb-share\:server\=thor\,share\=data/
+ssh pinchy.de
+ssh lodur
+su
+ssh pinchy.de
+su
+ssh pinchy.de
+ssh lodur
+su
+ssh pinchy.de
+cat /etc/apt/sources.list.d/sid.list
+cat /etc/apt/preferences.d/sid.pref
+cd projects/
+l
+su
+npm update -gg
+npm update -g
+cd projects/
+npm update -g hoodie-cli
+hoodie -v
+ssh pinchy.de
+su
+cd projects/
+l
+cd seasons/
+l
+l web
+l web_old/
+cp -R web_old/.git web/.git
+cd web
+l
+git status
+git add README.md deployment.md certs/
+git status
+l www
+git add www
+l
+git status
+cat .gitignore
+l
+git add .gitignore
+git status
+cat ../web_old/.jshintrc
+l
+l data/
+git status
+l
+cat package.json
+git add package.json
+git stat
+git status
+git add .foreverignore .jshintrc apps certificates readme.md server.js
+git status
+l www-orig/
+git commit -m "hoodie and serenade"
+git status
+git push
+git log
+git push
+ssh pinchy.de
+ssh pinchy.de
+ping pinchy.de
+ssh pinchy.de
+su
+cd projects/imagemin/
+l
+npm update
+l images/
+gulp
+cat images/godplessyou.svg
+cat minified/godplessyou.svg
+pstree
+su
+ssh pinchy.de
+cd projects/snap
+l ..
+rm -rf ../snap-master/
+git pull
+vagrant up
+vagrant pause
+vagrant halt
+vagrant up
+vagrant halt
+ssh lodur
+cd projects/
+cd snap/
+l
+cd pub/js/libs/
+l
+rm Scrolling.js
+mv Scrolling-wip.js Scrolling.js
+git gui
+ping 192.168.1.120
+ipconfig
+su
+su
+cd /tmp/
+l
+mkdir tmp
+cd tmp/
+l
+l
+http://fluxy.eu/leaks/temp/
+ssh pinchy.de
+su
+ssh pinchy.de
+su
+cd /tmp/
+mkdir tmp
+cd tmp/
+su
+ssh pinchy.de
+hoodie -v
+npm update -g hoodie
+cd projects/
+l
+hoodie new foo
+l foo/
+cd foo/
+cat package.json
+cat README.md
+ssh lodur
+ssh pinchy.de
+ssh lodur
+su
+ssh lodur
+su
+ssh pinchy.de
+su
+ssh lodur
+su
+chromium --help
+chromium --incognito
+chromium --incognito &
+su
+ssh pinchy.de
+cd .config/sublime-text-3/Packages/User
+git status
+git add CSScomb.sublime-settings
+cat CSScomb.sublime-settings
+l
+git rm csscomb.json
+git rm CSScomb\ JS.sublime-settings
+l
+git status
+l
+cat BufferScroll.sublime-settings
+cat Modific.sublime-settings
+git add Modific.sublime-settings
+cat Emmet.sublime-settings
+git add Emmet.sublime-settings
+git status
+git diff Preferences.sublime-settings
+l
+cat Base\ File.sublime-settings
+git add Default\ \(*
+git status
+l
+cat Package\ Control.sublime-settings
+git add Package\ Control.sublime-settings
+git status
+l
+cat Side\ Bar.sublime-settings
+git add Side\ Bar.sublime-settings
+cat SublimeLinter.sublime-settings
+git add SublimeLinter.sublime-settings
+l
+cat Xdebug.sublime-settings
+git add Xdebug.sublime-settings
+cat zenburn\ \(SL\).tmTheme
+git add zenburn\ \(SL\).tmTheme
+git status
+l
+git add Base\ File.sublime-settings
+git status
+l
+cd ..
+l
+l User_Platforms/
+git commit -m "csscomb settings"
+git push
+git pull
+git status
+cd User
+git diff CSScomb.sublime-settings
+cat CSScomb.sublime-settings
+git status
+git pull
+git add CSScomb.sublime-settings.
+git add CSScomb.sublime-settings
+l
+git resolve CSScomb.sublime-settings
+git --help
+git commit --help
+git status
+git push
+git pull
+git push
+sshfs --help
+sshfs c.schnieder@192.168.1.141:/Users/c.schnieder/ /home/cs/mnt/sshfs/
+ssh 192.168.1.141
+ssh c.schnieder@192.168.1.141
+nohup --help
+cd /tmp/
+l
+mkdir tmp && cd $_
+ssh pinchy.de
+su
+ssh lodur
+ssh pinchy.de
+ssh pinchy.de
+l Downloads/
+cd Downloads/
+chmod +x qt-opensource-linux-x64-1.6.0-4-online.run
+./qt-opensource-linux-x64-1.6.0-4-online.run
+su
+ssh pinchy.de
+cat .local/share/applications/sublime-text-3.desktop
+ping pinchy.de
+su
+cd .config/
+git status
+ssh pinchy.de
+git --help
+git config
+git config --global
+git config --global --get-all
+git config --global --get user.name
+git config --global user.name
+git config --global user.name Christoph
+git config --global user.name
+git config --global user.email
+cd projects/fsg/
+git pull
+git config --global merge.tool meld
+cat ~/.gitconfig
+which node
+git status
+vagrant up
+vagrant reload
+vagrant halt
+git status
+git rm app/lib/view/portlets/Share.class.php
+git rm app/templates/portlets/Share.html
+git status
+vagrant up
+vagrant halt
+vagrant up
+git status
+vagrant reload
+vagrant ssh
+git status
+git status
+vagrant halt
+vagrant up
+git status
+git push
+git pull
+git status
+rm app/modules/Website/views/SearchSuccessView.class.php.orig
+git status
+git commit
+git status
+git push
+ssh pinchy.de
+su
+ssh pinchy.de
+cd projects/
+cd seasons/
+l
+hoodie new foo
+ssh lodur
+cd projects/seasons/
+l
+rm -rf foo
+npm update -g
+npm update -g hoodie
+npm list -g --depth 0
+npm list -g --depth 1
+npm outdated -g
+npm list
+npm list -g
+node
+node -v
+hoodie new foo
+l
+rm -rf foo/
+npm update -g hoodie-cli
+hoodie new foo
+rm -rf foo/
+which node
+l /usr/local/bin/ | grep node
+node -v
+l
+l .node_modules
+unlink .node_modules
+npm install -g hoodie-cli
+l
+l | grep node
+l
+npm install -g hoodie-cli
+l | grep node
+npm install -g hoodie-cli
+mkdir .node_modules
+npm install -g hoodie-cli
+l /etc/ | grep node
+cat .bashrc
+vi .bashrc
+l
+l .node-gyp/
+rm -rf .node-gyp/
+l .WebOS\ Quick\ Install/
+rm -rf .WebOS\ Quick\ Install/
+l
+l Dropbox/
+l Dropbox/Notes/
+l Dropbox/Notes/.brain/
+cat Dropbox/Notes/.brain/
+rm -rf Dropbox/
+l
+cd .config/
+git status
+git diff .bashrc
+git add .bashrc
+git diff sublime-text-3/Packages/User/Preferences.sublime-settings
+l .node_modules/
+rmdir .node_modules/
+rm -rf .node_modules/
+npm install -g hoodie-cli
+vi .bashrc
+npm config set prefix ~/.node_modules
+npm install -g hoodie-cli
+l
+l .node_modules/
+l .node_modules/bin/
+l .local/
+l .local/share/
+vi .bashrc
+rm -rf .node_modules/
+cd .local/share/
+l
+npm install -g hoodie-cli
+l
+npm config set prefix ~/.local/share/npm
+npm install -g hoodie-cli
+npm config set prefix ~/.local/share/npm
+npm install -g hoodie-cli
+l
+l npm/
+cat ~/.bashrc
+su
+cd .config/
+l
+git add .install-scripts/
+git status
+git diff .bashrc
+vi .bashrc
+git status
+git add .bashrc
+git diff sublime-text-3/Packages/User/Preferences.sublime-settings
+git add sublime-text-3/Packages/User/Preferences.sublime-settings
+git commit -m "nodejs install script added"
+git status
+git add .install-scripts/
+git commit --amend
+git push
+cd ..
+l
+l .certs/
+mv .certs/ .config/
+cd .config/
+git add .certs/
+git commit -m "certs added"
+git push
+cd ..
+ln -s .config/.certs/ .certs
+cd .config/
+git push
+l
+cd ..
+l
+cd projects/seasons/
+l
+hoodie new foo
+npm list -g --depth 0
+npm install -g gulp
+npm install -g jshint csslint
+npm list -g --depth 0
+ssh pinchy.de
+cd projects/seasons/
+npm list -g --depth 0
+hoodie new foo
+vi ~/.bashrc
+su
+cd .config/
+git status
+git diff .bashrc
+git add .bashrc
+git diff .install-scripts/nodejs.sh
+git add .install-scripts/
+git commit -m "nodejs setup script splitted to install and config depending on executing user"
+git push
+cd /tmp/
+mkdir tmp
+cd tmp/
+ssh lodur
+cd projects/
+cd seasons/
+hoodie new foo
+which nodej
+which nodejs
+cd /usr/local/bin/
+ln -s /usr/bin/nodejs node
+su
+cd -
+hoodie new foo
+echo EUID
+echo $EUID
+sudo echo $EUID
+id -u
+l
+sudo sh ~/.config/.install-scripts/nodejs.sh
+sh ~/.config/.install-scripts/nodejs.sh
+l
+l foo/
+hoodie new hoodie
+ssh pinchy.de
+su
+ssh pinchy.de
+ssh pinchy.de
+su
+ssh pinchy.de
+su
+cd /tmp/
+mkdir tmp
+cd tmp/
+l
+l Downloads/
+ssh pinchy.de
+su
+ssh pinchy.de
+npm outdated --depth 0
+npm outdated -g --depth 0
+npm list -g
+npm list -g --depth 0
+cd projects/seasons/web
+hoodie start
+git status
+git add www
+git status
+git commit -m "logout added"
+git push
+git pull
+hoodie start
+git status
+git add www
+git status
+git commit -m "mithril login view"
+git push
+git pull
+skype -v
+which skype
+skype -v
+hoodie start
+git status
+git diff www/index.html
+git diff www/js/auth.js
+git diff www/js/main.js
+git status
+git add www
+git status
+git commit -m "auth added"
+git push
+su
+ssh pinchy.de
+su
+cd projects/seasons/web
+l
+hoodie start -n
+git status
+git add www
+git status
+git commit -m "auth error message added"
+l
+git rm www/js/serenade*
+git status
+l www/js/
+git commit -m "serenade removed"
+git push
+git pull
+hoodie start -n
+git status
+git diff www/js/auth.js
+git diff www/js/main.js
+git diff www/js/home.js
+git add www
+git status
+git commit -m "naming changed; home welcome message: username added"
+hoodie start -n
+git status
+git diff www/index.html
+git diff www/js/auth.js
+git add www
+git commit --amend
+git push
+cd .config/
+git pull
+git status
+git diff  sublime-text-3/Packages/User/Preferences.sublime-settings
+ssh pinchy.de
+su
+dalek -v
+su
+cd projects/imagemin/
+gulp
+npm update
+gulp
+cd projects/seasons/web
+dalek test/test.js
+dalek test/login.js
+rm test/test.js
+dalek test/login.js
+npm install --save-dev dalek-browser-chrome
+dalek test/login.js -b chrome
+git status
+git add test/
+git diff package.json
+git add package.json
+git status
+git diff www/css/main.css
+git add www
+git status
+git commit -m "dalek test for login form added"
+git status
+git add www/index.html
+git commit --amend
+git status
+git add www
+git status
+git commit --amend
+git push
+git pull
+ssh pinchy.de
+cd projects/seasons/web
+l
+npm list -g --depth 0
+npm outdated -g --depth 0
+npm update -g
+npm outdated -g --depth 0
+npm install -g dalek-cli
+l
+cat package.json
+npm install --save-dev dalekjs
+dalek -v
+dalek test/test.js
+npm search dalek
+npm info gulp-dalek
+npm --help
+npm show gulp-dalek
+l
+l node_modules/
+l node_modules/dalekjs/
+l node_modules/dalekjs/node_modules/
+hoodie start
+git rm www/serenade-index.html
+git status
+git rm www/js/pants.js
+git status
+su
+ssh pinchy.de
+cd projects/
+l
+cd ..
+cd .config/
+l
+l .install-scripts/
+cat .install-scripts/nodejs.sh
+git pull
+cd ..
+l
+cd /tmp/
+l
+mkdir tmp
+cd tmp/
+cd ..
+rmdir tmp/
+su
+ssh pinchy.de
+ssh pinchy.de
+cd projects/aida-hyperion/
+svn up
+ssh pinchy.de
+cd projects/aida-hyperion/
+su
+ssh lodur
+su
+l
+su
+ssh pinchy.de
+ssh root@192.168.1.1
+md5sum Downloads/openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-factory.bin
+ping 8.8.8.8
+ping google.com
+ping google.de
+ping heise.de
+ping 192.168.1.1
+ping thor
+ping thor.local
+ssh 192.168.1.1
+ssh root@192.168.1.1
+scp --help
+scp Downloads/openwrt-ar71xx-generic-tl-wdr4300-v1-squashfs-factory.bin root@192.168.1.1:/tmp
+ping 192.168.1.1
+ping thor
+ssh root@thor.ddns.name
+ssh cs@thor.ddns.name
+ssh root@thor
+ssh thor
+cat /etc/apt/sources.list
+su
+ssh thor
+ping thor
+ssh thor
+ssh pinchy.de
+su
+ssh pinchy.de
+su
+ssh pinchy.de
+su
+ssh pinchy.de
+su
+npm outdated -g --depth 0
+npm outdated -g
+npm update -g
+ssh pinchy.de
+su
+ssh pinchy.de
+l
+su
+cd .config/
+l
+l .install-scripts/
+cd ../.local/
+l
+l tmp/
+l share/
+l share/themes/adwaita-gtk2-patch/
+cd share/themes/adwaita-gtk2-patch/
+l
+cat setup-dark-gtk2.sh
+su
+ssh pinchy.de
+su
+ssh pinchy.de
+ssh thor
+ssh pinchy.de
+ssh pinchyde
+ssh pinchy.de
+l
+cd .local/share/themes/
+l
+cd adwaita-gtk2-patch/
+l
+cat setup-dark-gtk2.sh
+l /usr/share/themes/Adwaita/
+l /usr/share/themes/Adwaita/gtk-2.0/
+cat /usr/share/themes/Adwaita/gtk-2.0/gtkrc
+l /usr/share/themes/Adwaita/gtk-3.0/
+l
+cat gtk.css.bak
+cat gtk-dark.css
+cat gtkrc.bak
+l
+diff gtkrc gtkrc.bak
+l
+su
+ping thor
+su
+ssh thor
+ssh pinchy.de
+su
+ssh pinchy.de
+su
+cd /tmp/
+l
+mkdir tmp
+cd tmp/
+ssh pinchy.de
+su
+ssh pinchy.de
+ssh lodur
+ping lodur && ssh lodur
+su
+cd projects/aida-hyperion/
+l
+ant
+ant clean
+l
+l stage/
+l
+ant
+cp stage/js/routes.json build/js/
+svn st
+svn add stage/img/route/route_*
+svn add stage/js/routes.json
+svn add stage/img/select-arrow.png
+svn add stage/img/route/clouds.png
+svn st
+svn rm stage/js/routemap.js
+svn st
+l
+cat log
+l
+svn st
+svn ci -m "new route stage" stage/*.html stage/js/route* stage/img/route/* stage/img/select-arrow.png share/js/lib/stage.js
+svn st
+svn ci -m "new route stage" stage/build.xml stage/css/route.css stage/img/route/abudhabi.jpg stage/img/route/aqaba.jpg stage/img/route/athen.jpg stage/img/route/barcelona.jpg stage/img/route/busan.jpg stage/img/route/cadiz.jpg stage/img/route/chennai.jpg stage/img/route/cochin.jpg stage/img/route/dubai.jpg stage/img/route/ferrol.jpg stage/img/route/goa.jpg stage/img/route/hamburg.jpg stage/img/route/hochiminhstadt.jpg stage/img/route/hongkong.jpg stage/img/route/jeju.jpg stage/img/route/jerusalem.jpg stage/img/route/kairo.jpg stage/img/route/kreta.jpg stage/img/route/kualalumpur.jpg stage/img/route/lissabon.jpg stage/img/route/london.jpg stage/img/route/luxor.jpg stage/img/route/malaga.jpg stage/img/route/mallorca.jpg stage/img/route/malta.jpg stage/img/route/mormugao.jpg stage/img/route/muscat.jpg stage/img/route/nagasaki.jpg stage/img/route/osaka.jpg stage/img/route/paris.jpg stage/img/route/penang.jpg stage/img/route/route-map.svg stage/img/route/salalah.jpg stage/img/route/santander.jpg stage/img/route/shanghai.jpg stage/img/route/sharmelsheikh.jpg stage/img/route/singapur.jpg stage/img/route/sizilien.jpg stage/img/route/srilanka.jpg stage/img/route/taiwan.jpg stage/img/route/yokohama.jpg stage/js/routemap.js
+svn st
+svn up
+sv nst
+svn st
+svn rm stage/img/route/fallback-1.jpg
+svn rm stage/img/route/fallback-2.jpg
+svn rm stage/img/route/fallback-3.jpg
+svn rm stage/img/route/fallback-4.jpg
+svn rm stage/img/route/fallback-5.jpg
+svn st
+svn add stage/img/route/overview-bg.png
+svn st
+svn ci -m "new images; indicators clickable; height fixed; mobile fallback" stage/css/route.css stage/img/route/fallback-1.jpg stage/img/route/fallback-2.jpg stage/img/route/fallback-3.jpg stage/img/route/fallback-4.jpg stage/img/route/fallback-5.jpg stage/img/route/fallback-mobile.jpg stage/img/route/loading.jpg stage/img/route/overview-bg.png stage/js/route.js
+svn st
+ant
+ping vidar
+ifconfig
+systemctl start apache2.service
+svn st
+ant
+svn st
+su
+echo $PATH
+cd projects/
+cd seasons/
+l
+cd web
+l
+npm outdated -g --depth 0
+npm update -g
+hoodie --help
+npm list -g --depth 0
+echo $PATH
+cat ~/.bashrc
+echo $PATH
+vi ~/.config/.bashrc
+su
+cd projects/seasons/web
+l
+hoodie -v
+npm update -g --depth 0
+npm outdated -g --depth 0
+l
+hoodie start
+ssh pinchy.de
+su
+ssh pinchy.de
+cd /tmp/
+l
+mkdir tmp
+cd tmp/
+ssh pinchy.de
+su
+su
+ssh pinchy.de
+su
+ssh pinchy.de
+ssh lodur
+cd projects/seasons/web
+l
+git status
+hoodie start
+ssh pinchy.de
+su
+cd /tmp/
+l
+l
+ssh pinchy.de
+su
+ssh pinchy.de
+cd projects/seasons/web
+npm list -g --depth 0
+npm search yo
+hoodie start
+hoodie start -n
+git status
+git add www
+git status
+git commit -m "controllers and views separated - wip"
+git status
+npm update -g
+ssh pinchy.de
+su
+ssh thor
+cd /tmp/
+ssh pinchy.de
+su
+ssh lodur
+ssh pinchy.de
+su
+ssh pinchy.de
+ssh pinchy.de
+su
+ssh thor
+su
+ssh pinchy.de
+su
+ssh pinchy.de
+cd projects/aida-hyperion/
+ant
+svn st
+su
+cd /tmp/
+l
+mkdir tmp && _
+mkdir tmp
+cd &_
+cd $_
+rm -rf tmp/
+ssh pinchy.de
+su
+ssh pinchy.de
+dmesg
+su
+cd projects/aida-hyperion/
+svn st
+svn ci -m "ie fallback added" stage/css/route.css stage/js/route.js
+ant
+dmesg
+tail -f dmesg
+ssh pinchy.de
+su
+cd projects/aida-hyperion/
+svn st
+svn add stage/img/route/fallback.jpg
+svn st
+svn ci -m "ie8 fallback cover" stage/css/route.css stage/img/route/fallback.jpg
+l
+svn st
+ant
+ssh lodur
+su
+su
+ssh pinchy.de
+ssh pinchy.d
+ssh pinchy.de
+su
+cd projects/seasons/web
+git status
+ssh c.schnieder@192.168.178.26
+ssh c.schnieder@192.168.1.1
+ssh c.schnieder@192.168.1.141
+cd /tmp/
+l
+l
+l .ievms/
+rm -rf .ievms/IE6*
+l .ievms/
+cd projects/snap/
+vagrant destroy
+l .ievms/
+rm -rf .ievms/IE9_Win7.zip
+curl -s https://raw.githubusercontent.com/xdissent/ievms/master/ievms.sh | env IEVMS_VERSIONS="9 10 11" bash
+curl -s https://raw.githubusercontent.com/xdissent/ievms/master/ievms.sh | env IEVMS_VERSIONS="9 10 11"
+curl -s https://raw.githubusercontent.com/xdissent/ievms/master/ievms.sh | env IEVMS_VERSIONS="9 10 11" bash
+rm -rf .ievms/IE9_Win7.zip
+curl -s https://raw.githubusercontent.com/xdissent/ievms/master/ievms.sh | env IEVMS_VERSIONS="9 10 11" bash
+l .ievms/
+cd projects/fsg/
+git status
+git push
+git status
+vagrant halt
+ssh 192.168.178.26
+su
+ssh pinchy.de
+pacman -Syu
+ssh pinchy.de
+su
+cat /usr/share/applications/firefox.desktop
+ssh lodur
+vi .bash_history
+l /
+cd projects/seasons/web
+npm outdated -g --depth 0
+npm update -g
+hoodie start
+git status
+cd projects/fsg/
+l
+git status
+git format-patch christoph --stdout > pager.patch
+l
+cat pager.patch
+rm pager.patch
+l
+git status
+cd ~
+l
+cd .local/share/applications/
+l
+cp firefox.desktop firefox-developer-edition.desktop
+vi firefox-developer-edition.desktop
+cat firefox-developer-edition.desktop
+su
+l /tmp/
+su
+ssh pinchy.de
+su
+ssh pinchy.de
+cd projects/seasons/web
+l
+hoodie start
+cd ../..
+cd ..
+l
+l .Skype/
+rm -rf .Skype/
+su
+cd Downloads/
+l
+cat cm-11-20141122-NIGHTLY-mb52x.zip.md5sum
+md5sum cm-11-20141122-NIGHTLY-mb52x.zip
+ssh pinchy.de
+cd projects/seasons/web
+su
+ssh lodur
+su
+cd projects/fsg/
+git status
+git checkout -r HEAD app/
+git log
+git reset --hard HEAD
+git pull
+git status
+su
+ssh pinchy.de
+su
+ssh pinchy.de
+su
+ssh pinchy.de
+ifconfig
+cd projects/fsg/
+git pull
+git status
+vagrant up
+vagrant ssh
+vagrant reload
+vagrant ssh
+vagrant halt
+ssh pinchy.de
+su
+git fetch --all
+git reset --hard origin/christoph
+vagrant up
+vagrant halt
+vagrant up
+vagrant halt
+mount
+su
+ssh pinchy.de
+cd projects/fsg/
+vagrant up
+vagrant destroy
+vagrant up
+vagrant ssh
+vagrant halt
+su
+ssh pinchy.de
+cd projects/fsg/
+l
+git remote show origin
+git remote add cctrl ssh://fsg@cloudcontrolled.com/repository.git
+git remote show
+git remote --help
+git remote add origin https://github.com/fitnessstudio-guenstiger/fsg.git
+git remote remove origin
+git remote add origin https://github.com/fitnessstudio-guenstiger/fsg.git
+git reset --hard
+git pull
+git checkout search
+git pull origin
+vagrant up
+vagrant ssh
+git status
+git add app/modules/Website/views/SearchSuccessView.class.php
+git status
+git add app/modules/Website/views/SearchSuccessView.class.php
+git add pub/js/classes/PlaceAutocomplete.js
+git status
+#git commit -m "search for gym name (does not work if it contains spaces)"
+git diff pub/js/classes/PlaceAutocomplete.js
+git diff -r HEAD pub/js/classes/PlaceAutocomplete.js
+git commit -m "search for gym name (does not work if it contains spaces)"
+vagrant ssh
+git status
+git diff app/config/translations/de/website.xml
+git add app/config/translations/de/website.xml
+git diff app/modules/Website/templates/SearchSuccess.ajax.html
+git add app/modules/Website/templates/SearchSuccess.ajax.html
+git diff app/modules/Website/views/SearchSuccessView.class.php
+git add app/modules/Website/views/SearchSuccessView.class.php
+git commit --amend
+git status
+git config --global user.email
+git config --global user.name
+git push
+vagrant halt
+ssh pinchy.de
+su
+s
+su
+ssh pinchy.de
+su
+ssh pinchy.de
+vi ~/.bash_history
+su
+ssh pinchy.de
+su
+ssh pinchy.de
+su
+ssh lodur
+su
+ssh pinchy.de
+su
+ssh pinchy.de
+su
+cd projects/fsg/
+git status
+git diff agavi/src/routing/AgaviWebRouting.class.php
+git reset --hard agavi/src/routing/AgaviWebRouting.class.php
+git reset agavi/src/routing/AgaviWebRouting.class.php
+git status
+git diff agavi/src/routing/AgaviWebRouting.class.php
+git reset HEAD agavi/src/routing/AgaviWebRouting.class.php
+git reset --help
+git reset
+git reset --hard
+git status
+git reset --hard
+git pull
+su
+cd projects/fsg/
+vagrant up
+vagrant ssh
+vagrant halt
+vagrant up
+vagrant ssh
+vagrant halt
+ssh pinchy.de
+cd projects/fsg/
+git checkout stage
+git status
+git diff app/lib/services/Geocoding.class.php
+git status
+vagrant up
+git status
+git add .
+git status
+git push
+git commit -m "key setting added to geocoding class"
+git push
+git pull
+git status
+git diff pub/css/website.css
+git add .
+git status
+git commit -m "zindex for header increased"
+git pull
+git status
+git push
+vagrant ssh
+vagrant halt
+vi ~/.bash_history
+su
+ssh pinchy.de
+su
+ssh pinchy.de
+su
+ssh pinchy.de
+cd /tmp/
+l
+mkdir ztmp
+cd ztmp/
+lupdate --help
+l
+lupdate ambience-editor/ -ts ambience-editor/translations/ambience-editor.ts
+lupdate ambience-editor/ -ts ambience-editor/translations/ambience-editor-de.ts
+lupdate ambience-editor/ -ts ambience-editor/translations/*.ts
+ssh Jolla
+ssh 192.168.1.196
+getconf LONG_BIT
+cd Dow
+cd Downloads/
+l
+chmod +x SailfishOSSDK-Beta-1410-Qt5-linux-64-offline.run
+./SailfishOSSDK-Beta-1410-Qt5-linux-64-offline.run
+cd projects/ambience-editor/
+make
+l
+vi ~/.bash_history 
+su
+ssh pinchy.de
+l .ssh/
+cd .ssh/
+rm id_ed25519*
+l
+cat id_ed25519
+cat id_ed25519.pub 
+ssh-keygen --help
+man ssh-keygen
+ssh pinchy.de
+su
+ssh-keygen -t ed25519 -f .ssh/id_ed25519
+ssh-keygen -t ed25519 -o -a 100 -f .ssh/id_ed25519
+ssh pinchy.de
+su
+cd projects/fsg/
+git status 
+git reset --hard
+git pull
+vagrant up
+vagrant ssh
+vagrant halt
+ssh pinchy.de
+su
+ssh pinchy.de
+su
+ping pinchy.de
+ssh 213.203.202.64
+ssh pinchy.de
+su
+cd mnt/encfs/
+l
+cat ~/.bash_history 
+su
+ssh pinchy.de
+cd /tmp/
+cd Downloads/
+xs tptoolbox_v40/
+l
+cd tptoolbox_v40/
+l
+./tptb_v40_nix.sh 
+su
+ssh pinchy.de
+cd Downloads/tptoolbox_v40/
+l
+./tptb_v40_nix.sh 
+su
+ssh pinchy.de
+cat projects/fsg/readme.md 
+cd projects/fsg/
+vagrant up && vagrant ssh
+vagrant halt
+npm outdated -g --depth 0
+npm update -g
+npm outdated -g --depth 0
+cd projects/
+cd seasons/
+l
+npm outdated
+l hoodie/
+l web
+l web/www
+l hoodie/www/
+cd web
+npm outdated
+npm update
+npm outdated
+npm update
+npm outdated
+npm update dalekjs
+npm outdated
+npm update -g
+npm outdated
+ssh pinchy.de
+su
+ssh pinchy.de
+su
+l
+su
+ssh pinchy.de
+nodejs --version
+su
+cd .local/share/applications/
+l
+ln -s /home/share/applications/teamviewer/teamviewer.desktop teamviewer.desktop
+l
+ssh pinchy.de
+su
+ssh pinchy.de
+su
+ssh pinchy.de
+su
+ssh pinchy.de
+l
+cd mnt/encfs/
+cd mnt/encfs/
+ssh pinchy.de
+su
+l
+ssh lodur
+l
+ssh lodur
+ssh pinchy.de
+su
+ssh pinchy.de
+su
+ssh pinchy.de
+su
+ssh pinchy.de
+ssh
+ssh pinchy.de
+su
+ssh pinchy.de
+cd projects/fsg/
+git pull
+git checkout christoph
+git pull
+git log
+su
+ssh pinchy.de
+su
+ssh pinchy.de
+su
+ssh thor
+ssh pinchy.de
+su
+cd projects/godplessyou/
+l
+cd web/
+l
+npm run upgrade
+npm install mithril@0.1.29
+npm run upgrade
+ssh pinchy.de
+ssh Jolla
+su
+sshfs --help
+sshfs nemo@jolla:/home/nemo /home/cs/mnt/sshfs/
+fusermount -u /home/cs/mnt/sshfs 
+sshfs nemo@jolla:/home/nemo /home/cs/mnt/sshfs/
+fusermount -u /home/cs/mnt/sshfs 
+su
+sshfs nemo@jolla:/home/nemo /home/cs/mnt/sshfs/
+fusermount -u /home/cs/mnt/sshfs 
+ping jolla
+ping Jolla
+ssh jolla
+ssh nemo@jolla
+ssh-keygen -f "/home/cs/.ssh/known_hosts" -R jolla
+ssh nemo@jolla
+ssh pinchy.de
+su
+l
+su
+ssh thor
+su
+ssh pinchy.de
+su
+ssh lodur
+pstree
+pstree | grep ntp
+ssh lodur
+l
+ssh pinchy.de
+su
+ssh pinchy.de
+modprobe fuse
+su
+ssh lodur
+l
+su
+ssh pinchy.de
+ssh lodur
+sshfs nemo@jolla:/home/nemo /home/cs/mnt/sshfs/
+fusermount -u /home/cs/mnt/sshfs 
+su
+ssh pinchy.de
+su
+ssh lodur
+sshfs nemo@jolla:/home/nemo /home/cs/mnt/sshfs/
+fusermount -u /home/cs/mnt/sshfs 
+cd projects/godplessyou/public/
+npm
+npm install
+npm run upgrade
+yo
+cd ..
+yo
+npm list -g --depth 0
+npm install -g yo
+npm install -g generator-mithril
+mkdir teeest
+cd teeest/
+yo mithril
+npm unstinall -g generator-mithril
+npm uninstall -g generator-mithril
+npm list -g --depth 0
+cd ..
+npm list -g --depth 0
+
+npm list -g --depth 0
+su
+ssh pinchy.de
+cd mnt/encfs/.v/.tmp/
+l

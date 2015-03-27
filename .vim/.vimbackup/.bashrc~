@@ -121,7 +121,7 @@ if [ -f /home/share/applications/android-sdk ]; then
 	export ANDROID_NDK_ROOT=/home/share/applications/android-ndk
 fi
 
-if [ -d ~/.local/share/npm/bin ]; then
+if [ -f ~/.local/share/npm/bin ]; then
 	PATH=${PATH}:~/.local/share/npm/bin
 fi
 
@@ -130,4 +130,5 @@ export PATH
 if [ -f /home/share/applications/liquidprompt/liquidprompt ]; then
 	. /home/share/applications/liquidprompt/liquidprompt
 fi
+
 

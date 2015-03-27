@@ -1,4 +1,7 @@
 {
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"AdvancedNewFile",
@@ -13,6 +16,8 @@
 		"Git",
 		"Goto-CSS-Declaration",
 		"Modific",
+		"Package Control",
+		"Rust",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
 		"SublimeLinter",
@@ -22,6 +27,7 @@
 		"SublimeLinter-json",
 		"Sublimerge Pro",
 		"Theme - Soda",
+		"TOML",
 		"Xdebug Client",
 		"zenburn"
 	]

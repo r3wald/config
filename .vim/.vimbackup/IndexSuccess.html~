@@ -1,0 +1,5 @@
+{*include file='./Index/keyvisual.html'*}
+{include file='./Index/references.html'}
+{include file='./Index/services.html'}
+{include file='./ContactInput.html'}
+{include file='./Index/team.html'}
